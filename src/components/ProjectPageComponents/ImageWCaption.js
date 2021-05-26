@@ -5,7 +5,7 @@ const ImageWCaption= (props) => {
         <div className="row bound mx-auto">
             <h2>{props.title}</h2>
             <div style={{height:'24px',width:'100%'}}></div>
-            <img src={require(`../../assets/ProjectAssets/$${props.image}`)} className="img-fluid nopad" style={{borderRadius: '12px'}}/>
+            <img src={"assets/ProjectAssets/"+props.image} className="img-fluid nopad" style={{borderRadius: '12px'}}/>
             <p>{props.caption}</p>
         </div>
     </div>

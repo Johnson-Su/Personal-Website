@@ -1,5 +1,4 @@
 //this intro doesnt really need to be changed
-import thatme from '../../assets/thatme.png'
 
 const Aboutme = (props) => {
     return (
@@ -16,7 +15,7 @@ const Aboutme = (props) => {
                     <div className="col-md">
                         {props.content1}
                         <div style={{height:'24px',width:'100%'}}></div>
-                        <img src={thatme} style={{width:'80%'}}/>
+                        <img src='/assets/thatme.png' style={{width:'80%'}}/>
                         <div style={{height:'42px',width:'100%'}}></div>
                         {props.content2}
                     </div>

@@ -40,7 +40,7 @@ const Overview= (props) => {
             </div>
 
             <div className="col-md nopad d-flex flex-wrap align-items-center" style={props.style}>
-                <img src={require(`../../assets/ProjectAssets/${nospacetitle}/${props.image}`)} className="img-fluid nopad" style={{borderRadius: '12px'}}/>
+                <img src={"/assets/ProjectAssets/"+nospacetitle+"/"+props.image} className="img-fluid nopad" style={{borderRadius: '12px'}}/>
             </div>
     </div>
     </div>

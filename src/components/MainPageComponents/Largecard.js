@@ -50,8 +50,8 @@ const Largecard = (props) => {
                     </div>
                     <div className="col nopad align-self-center" style={{border:'1px solid white'}}>
                         <div className="max531">
-                            <img src={require(`../../assets/ProjectAssets/${props.title}/${props.imageName}`)} className="img-fluid notmobile nopad" style={{borderRadius: '0px 12px 12px 0px'}}/>
-                            <img src={require(`../../assets/ProjectAssets/${props.title}/${props.imageMobile}`)} className="img-fluid mobile nopad" style={{borderRadius: '0px 0px 12px 12px'}}/>
+                            <img src={"/assets/ProjectAssets/" + props.title + "/" + props.imageName} className="img-fluid notmobile nopad" style={{borderRadius: '0px 12px 12px 0px'}}/>
+                            <img src={"/assets/ProjectAssets/" + props.title + "/" + props.imageMobile} className="img-fluid mobile nopad" style={{borderRadius: '0px 0px 12px 12px'}}/>
                         </div>
                     </div>
                 </div>

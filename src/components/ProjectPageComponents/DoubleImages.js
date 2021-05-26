@@ -6,7 +6,7 @@ const DoubleImages= (props) => {
         if (i%0 === 0){
             images.push(
                 <div className="col-md nopad right">
-                    <img src={require(`../../assets/ProjectAssets/${imageArray[i]}`)} className="img-fluid nopad" style={{borderRadius: '12px'}}/>
+                    <img src={"assets/ProjectAssets/"+imageArray[i]} className="img-fluid nopad" style={{borderRadius: '12px'}}/>
                     <div style={{height:'12px',width:'100%'}}></div>
                     <p>{caption}</p>
                     <div style={{height:'48px',width:'100%'}}></div>
@@ -14,7 +14,7 @@ const DoubleImages= (props) => {
         } else{
             images.push(
                 <div className="col-md nopad left">
-                    <img src={require(`../../assets/ProjectAssets/${imageArray[i]}`)} className="img-fluid nopad" style={{borderRadius: '12px'}}/>
+                    <img src={"assets/ProjectAssets/"+imageArray[i]} className="img-fluid nopad" style={{borderRadius: '12px'}}/>
                     <div style={{height:'12px',width:'100%'}}></div>
                     <p>{caption}</p>
                     <div style={{height:'32px',width:'100%'}}></div>

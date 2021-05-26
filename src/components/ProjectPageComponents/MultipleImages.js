@@ -3,7 +3,7 @@ const MultipleImages= (props) => {
     var images = [];
     for(var i=0;i<imageArray.length;i++){
         var caption = props.captions[i];
-        images.push(<img src={require(`../../assets/ProjectAssets/${imageArray[i]}`)} className="img-fluid nopad" style={{borderRadius: '12px'}}/>);
+        images.push(<img src={"assets/ProjectAssets/"+imageArray[i]} className="img-fluid nopad" style={{borderRadius: '12px'}}/>);
         if(i!=0 || i!=imageArray.length){
             images.push(<div style={{height:'12px',width:'100%'}}></div>);
         }

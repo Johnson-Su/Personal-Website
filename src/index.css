@@ -220,12 +220,12 @@ b{
 
 .card{
   border: none;
-  background: #F6F6F6;
+  background: white;
 }
 
 .greybackground{
   border-radius: 12px;
-  background: #F6F6F6;
+  background: white;
 }
 
 .first{

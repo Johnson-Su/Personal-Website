@@ -23,7 +23,7 @@ const Navbar = ({ location }) => {
                 </ul>
                 <ul className="navbar-nav ml-auto">
                 <li className="nav-item ml-4 ">
-                    <a className="nav-font" style={navStyle} href="#">Resume</a>
+                    <a className="nav-font" style={navStyle} href="/assets/resume.pdf" target="_blank">Resume</a>
                 </li>
                 </ul>
             </div>

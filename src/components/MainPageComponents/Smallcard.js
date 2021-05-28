@@ -48,7 +48,7 @@ const Smallcard = (props) => {
                         <div style={{height:'32px',width:'100%'}}></div>
                 </div>
                 <div className="row">
-                    <img src={"/assets/ProjectAssets/"+nospacetitle+"/"+props.imageName} className="img-fluid nopad" style={{borderRadius: '0px 0px 12px 12px'}}/>
+                    <img src={"/assets/ProjectAssets/"+nospacetitle+"/"+props.imageName} className="img-fluid nopad" style={{borderRadius: '0px 0px 12px 12px', height:'auto'}}/>
                 </div>
             </div>
         </div>

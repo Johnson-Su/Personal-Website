@@ -28,7 +28,7 @@ const DoubleImages= (props) => {
         <div className="row bound mx-auto">
             <h2>{props.title}</h2>
             <div style={{height:'24px',width:'100%'}}></div>
-            <div className="row">
+            <div className="row row-eq-height">
                 {images}
             </div>
         </div>
